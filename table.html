@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h2>Exemplos de Tabelas</h2>
+    <table border="2">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+            <td>Curso</td>
+            <td>Cidade</td>
+        </tr>
+        <tr>
+            <td>Thiago</td>
+            <td>22</td>
+            <td>ADS</td>
+            <td>Almenara - MG</td>
+        </tr>
+        <tr>
+            <td>Maria Clara</td>
+            <td>17</td>
+            <td>Administração</td>
+            <td>Bandeira - MG</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>16</td>
+            <td>Zootecnia</td>
+            <td>Rubim - MG</td>
+        </tr>
+    </table>
+    <!-- cellpacing: espaçamento entre as células -->
+    <!-- cellpadding: espaçamento interno da célula-->
+    <!-- colspan: mescla celulas na horizontal (coluna) -->
+    <!-- rowspan: mescla celulas na vertical (linha)-->
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <td></td>
+            <th>ABC</th>
+            <th>BBC</th>
+            <th>CNN</th>
+        </tr>
+        <tr>
+            <th>06:00 - 07:00</th>
+            <td rowspan="2" >Filme</td>
+            <td>Comedia</td>
+            <td>Notícia</td>
+        </tr>
+        <tr>
+            <th>07:00 - 08:00</th>
+            <td>Esporte</td>
+            <td>Assuntos Atuais</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table  border="1">
+        <tr>
+            <td></td>
+            <th>9:00</th>
+            <th>10:00</th>
+            <th>11:00</th>
+            <th>12:00</th>
+        </tr>
+        <tr>
+            <td>Segunda</td>
+            <td colspan="2">Geografia</td>
+            <td>Matemática</td>
+            <td>Artes</td>
+        </tr>
+        <tr>
+            <td colspan="3">Terça</td>
+            <td>Educação Física</td>
+            <td>Português</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table border="1">
+        <tr>
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Tablet</td>
+            <td>R$ 999,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">Cupom 01 - R$ 10,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cupom 02 - R$ 12,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>R$ 3.478,98</td>
+        </tr>
+    </table>
+</body>
+</html>
