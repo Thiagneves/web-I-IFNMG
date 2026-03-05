@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audios, Videos e Iframe</title>
+</head>
+<body>
+
+    <!-- Audios -->
+    
+    <h2>Pink Floid</h2>
+
+    <p>
+        Another Brick In The Wall - All parts
+    </p>
+
+    <audio controls loop>
+        <source src="./audios/Pink Floyd - Another Brick In The Wall All parts.mp3" 
+        type="audio/mpeg">
+        Seu navegador não suporta audio
+    </audio>
+
+    <br> <br>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Atributo</th>
+                <th>O que faz?</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>controls</td>
+                    <td>Exibe controles de reprodução.</td>
+                </tr>
+                <tr>
+                    <td>autoplay</td>
+                    <td>Começa a tocar automaticamente (cuidado com UX!).</td>
+                </tr>
+                <tr>
+                    <td>loop</td>
+                    <td>Reproduz o áudio em loop (repetição).</td>
+                </tr>
+                <tr>
+                    <td>muted</td>
+                    <td>Inicia sem som (mutado).</td>
+                </tr>
+            </tbody>
+    </table>
+
+    <!-- Videos -->
+
+    <h2>Eagles</h2>
+
+    <p>
+        Hotel California - Live 1977
+    </p>
+
+    <video controls loop width="640" height="360" poster="./imgs/Capa_Hotel_California.jpg">
+        <source src="./videos/Eagles - Hotel California Live 1977.mp4" 
+        type="video/mp4">
+        Seu navegador não suporta video
+    </video>
+
+    <br> <br>
+
+    <table border="1">
+    <thead>
+        <tr>
+            <th>Atributo</th>
+            <th>O que faz?</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr>
+                <td>src</td>
+                <td>Endereço do conteúdo a ser incorporado.</td>
+            </tr>
+            <tr>
+                <td>width</td>
+                <td>Largura do iframe (px ou %).</td>
+            </tr>
+            <tr>
+                <td>height</td>
+                <td>Altura do iframe (px ou %).</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>Descrição para acessibilidade.</td>
+            </tr>
+            <tr>
+                <td>allowfullscreen</td>
+                <td>Permite exibição em tela cheia.</td>
+            </tr>
+            <tr>
+                <td>loading="lazy"</td>
+                <td>Carrega o iframe sob demanda (melhora o desempenho da página).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Videos do Youtube -->
+
+    <h2>The Doors</h2>
+
+    <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/Ue4mNQbj9V4?si=7Vw2OK5sPYlE8Cyu" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    <!-- Mapas do Google -->
+
+    <h2>Google Maps</h2>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.830209556296!2d-40.7458930239192!3d-16.229166333813023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x74bd828dfcfa4e7%3A0xc3c01777194ad93!2sIFNMG%20-%20Campus%20Almenara!5e0!3m2!1spt-BR!2sbr!4v1772717616956!5m2!1spt-BR!2sbr" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+</body>
+</html>
