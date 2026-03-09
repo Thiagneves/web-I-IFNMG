@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <fieldset>
+        <legend>Dados pessoais</legend>
+        <form action="">
+            Nome:
+            <input type="text" name="username" size="15" maxlength="30">
+
+            <br>
+            Endereço:
+            <input type="text" name="address" size="15" maxlength="30">
+            
+            <br>
+            Cidade:
+            <input type="text" name="city" size="15" maxlength="30">
+
+            <br>
+            Estado:
+            <select name="devices">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="BA">Bahia</option>
+                <option value="ES">Espirito Santo</option>
+                <option value="DF">Distrito Federal</option>
+            </select>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <form action="">
+            Natureza do Cargo
+            <br>
+            <input type="radio" name="cargo" value="Gerencial" checked="checked"> Gerêncial
+            <input type="radio" name="cargo" value="Financeiro"> Financeiro
+            <input type="radio" name="cargo" value="Recepcao"> Recepção
+            <input type="radio" name="cargo" value="Adm"> Administrativo
+            <input type="radio" name="cargo" value="Juridico"> Jurídico
+
+            <br> <br>
+            Área de interesse
+            <br>
+            <input type="checkbox" name="interesse" value="Computacao"> Computação
+            <input type="checkbox" name="interesse" value="Biologia"> Biologia
+            <input type="checkbox" name="interesse" value="Meio Ambiente"> Meio Ambiente
+            <input type="checkbox" name="interesse" value="Engenharia"> Engenharia
+            <input type="checkbox" name="interesse" value="Historia"> História
+
+            <br> <br>
+            Mini-currículo: 
+            <textarea name="curriculo" cols="40" rows="5"></textarea>
+        </form>
+    </fieldset>
+    <br>
+    <form action="" method="post">
+        <input type="button" value="Enviar">
+        <input type="button" value="Limpar">
+    </form>
+</body>
+</html>

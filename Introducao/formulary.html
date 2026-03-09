@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h2>Exemplo de formulario:</h2>
+    <form action="">
+        <p>Nome de usuário:
+            <input type="text" name="username" size="15" maxlength="30">
+        </p>
+
+        <p>Senha:
+            <input type="password" name="password" size="15" maxlength="30">
+        </p>
+
+        <p>Caixa de Texto: </p>
+        <textarea name="comments" cols="20" rows="4">Digite algo aqui..</textarea>
+
+        <p>Qual seu genero favorito?
+            <br>
+            <input type="radio" name="genre" value="rock" checked="checked"> Rock
+            <input type="radio" name="genre" value="pop"> Pop
+            <input type="radio" name="genre" value="jazz"> Jazz
+        </p>
+
+        <p>Qual seu app de musica favorito?
+            <br>
+            <input type="checkbox" name="service" value="itunes" checked="checked"> iTunes
+            <input type="checkbox" name="service" value="spotify"> Spotify
+            <input type="checkbox" name="service" value="youtube music"> Youtube Music
+        </p>
+    
+        <p>Em qual dispositivo você costuma escutar musica? </p>
+        <select name="devices">
+            <option value="ipod">iPod</option>
+            <option value="celular">Celular</option>
+            <option value="computer">Computador</option>
+        </select>
+    </form>
+
+    <form action="" method="post">
+        <p>Envio de Arquivos:</p>
+        <input type="file" name="user-song"> <br> <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
