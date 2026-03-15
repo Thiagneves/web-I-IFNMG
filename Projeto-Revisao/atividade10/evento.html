@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+</head>
+<body>
+    <h1>Verão Fest</h1>
+    <p>
+        O Verão Fest é um evento fictício criado para celebrar a energia, a alegria e a liberdade que só o verão traz. Realizado em um espaço aberto e vibrante, o festival reúne música, cultura, gastronomia e diversas atividades ao ar livre, criando uma experiência inesquecível para pessoas de todas as idades.
+    </p>
+    <p>
+        Durante o evento, o público pode aproveitar shows ao vivo com diferentes estilos musicais, apresentações culturais, espaços interativos, além de uma praça gastronômica com comidas e bebidas típicas da estação. O ambiente é decorado com cores tropicais, iluminação especial e áreas de descanso que convidam os visitantes a relaxar e aproveitar cada momento.
+    </p>
+    <p>
+        O Verão Fest também oferece atividades recreativas, como jogos, competições esportivas e oficinas criativas, incentivando a interação entre os participantes. A proposta do evento é reunir amigos, famílias e visitantes em um clima descontraído, celebrando o espírito do verão com muita música, diversão e boas memórias.
+    </p>
+    <fieldset>
+        <legend><strong>Formulario Parcitipantes</strong></legend>
+        <br>
+        <form action="" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <br>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br>
+            <div>
+                <label for="date_evento">Data do evento:</label>
+                <input type="date" name="" id="">
+            </div>
+            <br>
+            <div>
+                <label for="time_evento">Horário do Evento:</label>
+                <input type="time" name="horario_evento" id="horario_evento">
+            </div>
+            <br>
+            <div>
+                <label>Área do Evento:</label>
+                <br><br>
+                <input type="checkbox" id="praia" name="area_evento" value="pista">
+                <label for="praia">Praia - Pista</label>
+
+                <input type="checkbox" id="camarote" name="area_evento" value="camarote">
+                <label for="camarote">Camarote</label>
+
+                <input type="checkbox" id="vip" name="area_evento" value="vip">
+                <label for="vip">Área VIP</label>
+            </div>
+            <br>
+            <div>
+                <p>Tipo de Participação:</p>
+
+                <input type="radio" name="tipo_participacao" id="artista" value="artista">
+                <label for="artista">Artista</label><br>
+
+                <input type="radio" name="tipo_participacao" id="publico" value="publico">
+                <label for="publico">Público</label>
+            </div>
+            <br>
+            <div>
+                <p>Enviar Arquivo:</p>
+                <input type="file" value="Arquivo">
+            </div>
+            <br>
+            <div>
+                <p>Observações:</p>
+                <textarea name="obs" id="obs" cols="40"></textarea>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
